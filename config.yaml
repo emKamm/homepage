@@ -7,32 +7,31 @@ banner: https://picsum.photos/id/857/1000/400
 
 # When using a custom domain these fields must be updated to match
 # the Github account and repository name
-#acct: <emKamm>
-#repo: <homepage>
+#acct: <GitHub account/username>
+#repo: <GitHub repository>
 
 ######################################################
 # Defines options shown in the header navigation menu
 ######################################################
 nav:
-- label: Creative Work
-  icon: fas fa-file-code
-  action: load-page
-  path: /personal 
-  - label: Scholarly Work
-  icon: fas fa-file-code
-  action: load-page
-  path: /env-hist
-  - label: Spiritual Work
-  icon: fas fa-file-code
-  action: load-page
-  path: /eco-judaism
 - label: Contact the Juncture team
   icon: fas fa-envelope
   action: contact-us
 - label: View page source
   icon: fas fa-file-code
   action: view-markdown
-
+- label: Creative Work
+  icon: fas fa-magic
+  action: load-page
+  path: /personal
+- label: Historical Research
+  icon: fas fa-pen-fancy
+  action: load-page
+  path: /env-hist
+- label: Jewish Thoughts
+  icon: fas fa-torah
+  action: load-page
+  path: /eco-judaism
 
 # If a contact-us action is defined for the nav menu a contact form will be enabled
 # The following information is used in the display and processing of the contact form.
