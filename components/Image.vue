@@ -130,7 +130,7 @@ module.exports = {
     sliderPct: 0,
     tileSources: [],
     showAnnotations: false,
-    showAnnotationsNavigator: true,
+    showAnnotationsNavigator: false,
     licenseUrl: null,
     licenseIcons: [],
     imageViewportCoords: null,
@@ -143,7 +143,7 @@ module.exports = {
   computed: {
     osdContainerStyle() {
       return {
-        backgroundColor: this.currentItem ? this.currentItem.background || 'black' : 'black',
+        background: this.currentItem && this.currentItem.background ? this.currentItem.background : 'black',
         textAlign: 'center',
         height: this.viewerIsActive ? '100%' : '0',
         display: this.viewerIsActive ? 'grid' : 'none',
@@ -227,15 +227,17 @@ module.exports = {
   },
   mounted() {
     this.osdElem = document.getElementById('osd')
+    const osdElem = document.getElementById('osd')
+    if (osdElem) { osdElem.style.background = this.osdContainerStyle.background }
     this.loadDependencies(dependencies, 0, this.init)
   },
   methods: {
     init() {
-      console.log(this.$options.name, this.viewerItems, this.viewerIsActive, this.width, this.height, this.selected)
+      console.log(this.$options.name, this.viewerItems, this.viewerIsActive, this.width, this.height, this.selected, this.currentItme)
       // console.log(`acct=${this.acct} repo=${this.repo} path=${this.path}`)
       if (this.viewerIsActive) {
-      this.initViewer()
-      this.loadManifests(this.viewerItems)
+        this.initViewer()
+        this.loadManifests(this.viewerItems)
       }
       //this.displayInfoBox()
     },
@@ -294,7 +296,7 @@ module.exports = {
         // this.viewer.viewport.goHome = function(immediately) { if (this.viewer) this.viewer.raiseEvent('home', { immediately: immediately }) }
         this.viewer.addHandler('home', (e) => {
           this.positionImage(e.immediately, 'home')
-          this.showAnnotationsNavigator = true
+          // this.showAnnotationsNavigator = false
         })
         this.viewer.addHandler('page', this.newPage)
         this.viewer.addHandler('viewport-change', this.viewportChange)
@@ -437,8 +439,15 @@ module.exports = {
       }
     },
     async loadAnnotations() {
-      let annosPath = `${this.mdDir}${this.currentItemSourceHash}.json`
-      // console.log(`loadAnnotations: path=${annosPath}`)
+      //let annosPath = `${this.mdDir}${this.currentItemSourceHash}.json`
+      let annosPath = `${this.mdDir}`
+      if (annosPath.length > 1){
+        annosPath = `${this.mdDir}/${this.currentItemSourceHash}.json`
+      } else {
+        annosPath = `${this.mdDir}${this.currentItemSourceHash}.json`
+      }
+       
+      console.log(`loadAnnotations: path=${annosPath}`)
       this.getFile(annosPath).then(annos => {
         if (annos && annos.content && annos.content.length > 0) {
           this.annotations = JSON.parse(annos.content)
@@ -448,6 +457,9 @@ module.exports = {
         } else {
           this.annotations = []
         }
+        this.annoCursor = 0
+        if (this.annotations.length > 0) this.showAnnotationsNavigator = true
+        console.log(`annotations=${this.annotations.length} show=${this.showAnnotationsNavigator}`)
       })
     },
     saveAnnotations() {
@@ -723,7 +735,7 @@ module.exports = {
 
       return html;
     },
-    displayInfoBox(){
+    displayInfoBox() {
       //this.imageInfo = this.parseManifest();
 
       if (this.manifests.length == 2 && (this.mode === 'layers' || this.mode === 'curtain')){
@@ -744,38 +756,28 @@ module.exports = {
       //const template = document.getElementsByClassName('.info-box-content');
       //console.log('template', template);
 
-        if (!this.tippy) {
-          new tippy(document.querySelectorAll('.info-box'), {
-            animation:'scale',
-            trigger:'click',
-            interactive: true,
-            allowHTML: true,
-            placement: 'bottom-start',
-            zIndex: 11,
-            preventOverflow: { enabled: true },
-            hideOnClick: true,
-            // theme: 'light-border',
-            
-            onShow: (instance) => {
-              instance.setContent(this.imageInfo)
-              //setTimeout(() => { instance.hide() }, 10000)
-            },
-            onHide(instance) {
-              instance.setProps({trigger: 'mouseenter'});
-            }
-          })
-        }
-    
-    },
-    setImageCatpion(){
-      if (this.manifests.length == 2){
-        if (this.sliderPct < 50){
-          this.imageInfo = this.parseManifest(0)
-        }
-        else if (this.sliderPct > 50){
-          this.imageInfo = this.parseManifest(1)
-        }
+      if (!this.tippy) {
+        new tippy(document.querySelectorAll('.info-box'), {
+          animation:'scale',
+          trigger:'click',
+          interactive: true,
+          allowHTML: true,
+          placement: 'bottom-start',
+          zIndex: 11,
+          preventOverflow: { enabled: true },
+          hideOnClick: true,
+          // theme: 'light-border',
+          
+          onShow: (instance) => {
+            instance.setContent(this.imageInfo)
+            //setTimeout(() => { instance.hide() }, 10000)
+          },
+          onHide(instance) {
+            instance.setProps({trigger: 'mouseenter'});
+          }
+        })
       }
+    
     }
   },
   beforeDestroy() {
@@ -872,6 +874,10 @@ module.exports = {
     },
     currentItem(current, previous) {
       console.log('currentItem', current, previous)
+      this.annotations = []
+      this.annoCursor = 0
+      this.loadAnnotations()
+      /*
       if (this.viewer && current && (!previous || current['@id'] !== previous['@id'])) {
         this.loadAnnotations()
         this.displayInfoBox();
@@ -880,6 +886,7 @@ module.exports = {
         // if (previous && previous.annotations) this.currentItem = { ...this.currentItem, ...{ annotations: [...previous.annotations] } }
         if (current && previous && previous.annotations) this.currentItem.annotations = [...previous.annotations]
       }
+      */
     },
     currentItemSourceHash() { console.log(`currentItemSource=${this.currentItemSource} hash=${this.currentItemSourceHash}`) },
     mode() {
