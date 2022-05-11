@@ -8,13 +8,9 @@
 
 
 
-# Sample visual essay
 
-This is a sample visual essay demonstrating a few key features of a Visual Essay. Additional [Documentation](https://github.com/JSTOR-Labs/juncture/wiki) and [examples](https://jstor-labs.github.io/juncture-examples) are available for reference.
-<param ve-image 
-       manifest="https://iiif.juncture-digital.org/manifest/6dd738aed85597cac540ad31dd5818e86ef7f2918c7b43a9eb3123d5538e6e4c">
+# Mapping Fugitives
 
-# Basic usage
 Meleiza Figueroa's 2010 map of "Rebel Slave Communities in the Americas" continues to circulate widely as a comprehensive picture of fugitive slave communities. 
 I am adding to this map in several respects: geographically and chronologically. 
 	1. Talk about Figueroa map 
@@ -22,16 +18,13 @@ I am adding to this map in several respects: geographically and chronologically.
 	3. There are many stories yet to add. I am starting with Santiago del Principe.
 <param ve-image 
        label="Meleiza Figueroa: Geography of Freedom" 
-       description="Map of fugitive slave communities in the Americas" 
-       license="public domain" 
+       description="Map of fugitive slave communities in the Americas"
        url="https://github.com/emKamm/homepage/blob/4f85c78f2c33186568f058107564ea90d4c56dd5/Panama/Figueroa-2010-geography-freedom-rebel-slave-communities.jpg">
 
 
 
 
 
-
-<param ve-image fit="contain" manifest="https://github.com/emKamm/homepage/blob/4f85c78f2c33186568f058107564ea90d4c56dd5/Panama/Figueroa-2010-geography-freedom-rebel-slave-communities.jpg">
 
 P 1.2 | Zoom on figueroa map, add json layer
 
