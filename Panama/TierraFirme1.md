@@ -1,12 +1,23 @@
-[[Panama 1590]] #dhproject [[Juncture]] [[VisEssay]]
-[[Figueroa-2020-rebel-slave-communities.png]]  
+<a href="https://juncture-digital.org"><img src="https://juncture-digital.org/images/ve-button.png"></a>
+
+<param ve-config 
+       title=""
+       author=""
+       banner="" 
+       layout="">
+
+<!-- Entities discussed throughout the essay are typically defined before the essay text and
+     are thus available in all text.  Entity identifiers (QIDs) can be found in either
+     Wikipedia or Wikidata (https://www.wikidata.org)> -->
+<param ve-entity eid="">
+
 Map of palenques, I am adding to this map
 	1. Talk about Figueroa map 
 	2. Zoom in to Isthmus, talk about what should be added to it
 	3. There are many stories yet to add. I am starting with Santiago del Principe.
 
-P 1.1 | ```html
-<param ve-image fit="contain" manifest="">``` 
+
+<param ve-image fit="contain" manifest="">
 
 P 1.2 | Zoom on figueroa map, add json layer
 
