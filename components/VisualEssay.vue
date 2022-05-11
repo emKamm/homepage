@@ -173,7 +173,7 @@ module.exports = {
           .forEach(id => {
             let entity = this.entities[id]
             if (entity) {
-              let toMatch = [...[entity.label], ...entity.aliases.filter(alias => alias.length > 2)]
+              let toMatch = [...[entity.label], ...Array.from(entity.aliases).filter(alias => alias.length > 2)]
               for (let i = 0; i < toMatch.length; i++) {
                 if (toMatch[i]) {
                   let re = new RegExp(`(^|[\\s(>])(${toMatch[i].replace(/'/, "'?")})([\\s)<;:,.]|$)`, 'i')
@@ -245,9 +245,34 @@ module.exports = {
     }
   }
 }
+function getDomPath(el) {
+  var stack = []
+  while ( el.parentNode != null ) {
+    let sibCount = 0
+    let sibIndex = 0
+    for ( var i = 0; i < el.parentNode.childNodes.length; i++ ) {
+      let sib = el.parentNode.childNodes[i];
+      if ( sib.nodeName == el.nodeName ) {
+        if ( sib === el ) {
+          sibIndex = sibCount;
+        }
+        sibCount++
+      }
+    }
+    if ( el.hasAttribute('id') && el.id != '' ) {
+      stack.unshift(el.nodeName.toLowerCase() + `#${el.id}`)
+    } else if ( sibCount > 1 ) {
+      stack.unshift(el.nodeName.toLowerCase() + (sibIndex > 0 ? `[${sibIndex}]` : ''))
+    } else {
+      stack.unshift(el.nodeName.toLowerCase())
+    }
+    el = el.parentNode
+  }
+  return stack
+}
 </script>
 
-<style>
+<style scoped>
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) );
