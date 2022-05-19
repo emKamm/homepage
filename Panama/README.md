@@ -1,10 +1,10 @@
 <a href="https://juncture-digital.org"><img src="https://juncture-digital.org/images/ve-button.png"></a>
 
 <param ve-config 
-       title=""
-       author=""
-       banner="" 
-       layout="">
+       title="Panama"
+       author="EmKamm"
+       banner="https://github.com/emKamm/homepage/blob/main/Panama/1670francisLamb.png" 
+       layout="vtl">
 
 <!-- Entities discussed throughout the essay are typically defined before the essay text and
      are thus available in all text.  Entity identifiers (QIDs) can be found in either
