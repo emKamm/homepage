@@ -3,7 +3,7 @@
 <param ve-config 
        title="Panama"
        author="EmKamm"
-       banner="https://github.com/emKamm/homepage/blob/main/Panama/1670francisLamb.png" 
+       banner="https://raw.githubusercontent.com/emKamm/homepage/main/Panama/1644Jansson.png" 
        layout="vtl">
 
 <!-- Entities discussed throughout the essay are typically defined before the essay text and
