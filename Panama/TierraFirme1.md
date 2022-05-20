@@ -3,7 +3,7 @@
 <param ve-config 
        title="Isthmus of Panama"
        author="EmKamm"
-       banner="https://github.com/emKamm/homepage/blob/e00db9d022c9c233d8e820314df71681b1e18529/Panama/1670francisLamb.png" 
+       banner="https://raw.githubusercontent.com/emKamm/homepage/main/Panama/1644Jansson.png" 
        layout="vertical">
 
 
@@ -19,7 +19,7 @@ I am adding to this map in several respects: geographically and chronologically.
 <param ve-image 
        label="Meleiza Figueroa: Geography of Freedom" 
        description="Map of fugitive slave communities in the Americas"
-       url="https://github.com/emKamm/homepage/blob/4f85c78f2c33186568f058107564ea90d4c56dd5/Panama/Figueroa-2010-geography-freedom-rebel-slave-communities.jpg">
+       url="https://raw.githubusercontent.com/emKamm/homepage/main/Panama/Figueroa-2010-geography-freedom-rebel-slave-communities.jpg">
 
 
 
