@@ -15,6 +15,9 @@
 	1. Talk about Figueroa map
 	2. Zoom in to Isthmus, talk about what should be added to it
 	3. There are many stories yet to add. I am starting with Santiago del Principe.
+<param ve-entity image
+       url= "https://raw.githubusercontent.com/emKamm/homepage/main/Panama/Figueroa-2010-geography-freedom-rebel-slave-communities.jpg">
+       
 2. [TierraFirme2] Where did Marronage happen? Why there?
 	1. Interior mountains
 	2. Dense forests
