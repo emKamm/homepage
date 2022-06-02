@@ -1,3 +1,15 @@
+<a href="https://juncture-digital.org"><img src="https://juncture-digital.org/images/ve-button.png"></a>
+
+<param ve-config 
+       title="Panama"
+       author="EmKamm"
+       banner="https://raw.githubusercontent.com/emKamm/homepage/main/Panama/1644Jansson.png" 
+       layout="vtl">
+
+<!-- Entities discussed throughout the essay are typically defined before the essay text and
+     are thus available in all text.  Entity identifiers (QIDs) can be found in either
+     Wikipedia or Wikidata (https://www.wikidata.org)> -->
+<param ve-entity eid="">
 Their leader was Don Luis Mozambique and he spoke for the men and women of “diverse nations that had united under him, as well as the children born and raised” [^7.1] in their _palenque,_ a term for fugitive slave settlements in the Spanish Americas. He gave the court the names of his neighbors and kin—28 men, 17 women, and 8 children—who would receive a declaration of their freedom that day. This list of names and relationships was recorded and signed by the notary Luis Sanchez, submitted to the records of the court, from whence it was funneled through the Spanish imperial bureaucracy to Seville and then Madrid. 
 
 Within that list, it is striking to come across a familial scene so easy to conjure across time and distance: Mateo and Francisca, husband and wife, both listed with the ethnonym Congo, parents of three children between the ages of seven and ten.  How were Mateo and Francisca stolen away from their natal families a half a world away? Had Mateo driven mule trains back and forth through the rainforest, driven carriages through a city center, or loaded cargo at one of the ports? Had Francisca worked in the fledgling colony’s homes, farms, inns, or taverns? How had they taken flight into the mountains, how long had they fought to secure their freedom? There’s a bittersweetness to knowing many questions provoked by such a source cannot be directly answered.
