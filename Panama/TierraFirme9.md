@@ -1,3 +1,15 @@
+<a href="https://juncture-digital.org"><img src="https://juncture-digital.org/images/ve-button.png"></a>
+
+<param ve-config 
+       title="Panama"
+       author="EmKamm"
+       banner="https://raw.githubusercontent.com/emKamm/homepage/main/Panama/1644Jansson.png" 
+       layout="vtl">
+
+<!-- Entities discussed throughout the essay are typically defined before the essay text and
+     are thus available in all text.  Entity identifiers (QIDs) can be found in either
+     Wikipedia or Wikidata (https://www.wikidata.org)> -->
+<param ve-entity eid="">
 It was the middle of June 1579, and twenty-eight men were in Panamá to see the presiding judge of the royal court. Likely, most of these men had been to the city before. Maybe they’d lived and worked in Panamá for some time, maybe they’d come to know the city only in between time spent working elsewhere—clearing land for pasture on the city’s outskirts, driving trains of mules across the mountains, diving for pearls on the islands across the bay. These twenty-eight men had been slaves once, yet all claimed freedom on their own terms by taking flight, settling in the mountains in the interior, and defending themselves against Spanish troops sent to re-enslave them. Now this group came to have their freedom recognized by the Spanish crown.
 . In 1575, Criado de Castilla estimated the total number of fugitives in Tierra Firme at 2500[^9.1]and these fugitives’ entrenched, well-defended positions in the mountains were sources of serious anxiety for Spanish authorities.[^9.2] Some of these fugitives do not appear at all in the notarial record; others appear only as population numbers or unnamed antagonists. Many of these fugitives appear in the notarial record at the moment of their arrival into a new settlement, which also marked their new notarial status as free Black subjects. A small subsection of fugitive groups appear in the notarial record at the moment they first begin negotiation with Spanish authorities on the terms of their surrender and settlement.
 
