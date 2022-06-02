@@ -18,11 +18,11 @@
 <param ve-entity image
        url= "https://raw.githubusercontent.com/emKamm/homepage/main/Panama/Figueroa-2010-geography-freedom-rebel-slave-communities.jpg">
        
-2. [TierraFirme2] Where did Marronage happen? Why there?
+2. [TierraFirme2](TierraFirme2.md) Where did Marronage happen? Why there?
 	1. Interior mountains
 	2. Dense forests
 	3. Alongside trade routes
-3. [TierraFirme3] What was the isthmus of Panama like (geography, demography)
+3. [TierraFirme3](TierraFirme3.md) What was the isthmus of Panama like (geography, demography)
 4.  [TierraFirme4](TierraFirme4.md) Where did colonial "control" circulate in the late sixteenth century
 	1. 	On the sea, on the carerra da indias
 		1. How is the isthmus a central link on the carerra?
@@ -33,12 +33,12 @@
 		1.  Some of these guys are spanish, some are french or english, privateers are the non state entities trying to nibble off the edges of the wealth being produced by the Spanish empire in the silver mines, the pearl islands, the Asian porcelain, etc.
 	2.  Within the cities lives the structured, legal world of the spanish vecinos. How does the legal world work there?  
 	3.  And within those spanish colonial cities: How does the material world work? How is food produced, how is labor performed? 
-6. [TierraFirme6]  Whose labor made it possible? Enslaved Africans. 
-7.  [TierraFirme7]  Who are [[House Don Luis]]?
+6. [TierraFirme6](TierraFirme6.md)  Whose labor made it possible? Enslaved Africans. 
+7.  [TierraFirme7](TierraFirme7.md)  Who are [[House Don Luis]]?
 8. [TierraFirme8]  How did they fit into the landscape of options before recognition? 
 	1. Creating chaos, undermining Spanish control and possibly more.
-9.  [TierraFirme9]  How did they fit into their new freedom landscape?
+9.  [TierraFirme9](TierraFirme9.md)  How did they fit into their new freedom landscape?
 	1. Self-creating social forms, control shifting into new hands.
-10. [TierraFirme10]  Which options created freedom (flight, fight, pledge, submit, disperse...)?
+10. [TierraFirme10](TierraFirme10.md)  Which options created freedom (flight, fight, pledge, submit, disperse...)?
 11. [which-history-Panama] Why does it matter to go even further back into the African past of the Americas?
 12. [what-next-Panama]  What else? What next? Talk about who else is doing this work, what it connects to, where my engagement with it goes next. 
