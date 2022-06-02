@@ -1,3 +1,15 @@
+<a href="https://juncture-digital.org"><img src="https://juncture-digital.org/images/ve-button.png"></a>
+
+<param ve-config 
+       title="Panama"
+       author="EmKamm"
+       banner="https://raw.githubusercontent.com/emKamm/homepage/main/Panama/1644Jansson.png" 
+       layout="vtl">
+
+<!-- Entities discussed throughout the essay are typically defined before the essay text and
+     are thus available in all text.  Entity identifiers (QIDs) can be found in either
+     Wikipedia or Wikidata (https://www.wikidata.org)> -->
+<param ve-entity eid="">
 It was the middle of June 1579, and Panamá was in the rainy season. As the city’s seasons cycled ever forward, the rain was the way to mark the passing years. So close to the equator, daylight barely varied by three-quarters of an hour. From May to December, clouds rolled in from the Pacific each night, raining and thundering with great intensity over the city. Five hundred _vecinos_—heads of household, landowners—slept in their wooden houses. A handful of boats sat on an exposed shoreline, waiting for the return of the tides in the morning. Four thousand laboring people—sailors passing through on the way to Lima, cowherds with their stock, cooks and innkeepers tending to hearths—wove together the fabric of urban life.[[1]](#_ftn1) 
 
 Above the houses, docks, warehouses, and churches of Panamá City, the Camino Real rose into the interior of the isthmus. This imperial road had been traversed long before the arrival of Spaniards; Mesoamerican trade networks [EXPAND w CntrlAm archaeology]. Although the Camino Real offered an established path through the mountains, the dense foliage on either side offered either protection or danger, depending on one’s perspective. Scarcely outside of town “the mountains begin, which are so full of tree cover that one cannot move without cutting through branches that are thickly interwoven; for this reason the fugitives are so strengthened in their ease in hiding and defending themselves.”[[2]](#_ftn2)
