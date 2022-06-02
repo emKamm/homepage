@@ -10,6 +10,7 @@
      are thus available in all text.  Entity identifiers (QIDs) can be found in either
      Wikipedia or Wikidata (https://www.wikidata.org)> -->
 <param ve-entity eid="">
+
 Section on Marronage
 
  Panama is an early and sustained example of marronage (see Mena Garcia, Tardieu), followed later by Mexico, Florida, Cuba, Jamaica, see Helg, Landers, Bennett, Vincent Brown, Vinson…
@@ -26,9 +27,7 @@ Whether manumission and autonomy were achieved through combat, conversion, or a 
 
   One irony of the history of marronage is that by fleeing to remote, interior areas, fugitives often extended the frontier of colonial awareness and possession. I use awareness and possession together here because of those notions’ deeply intertwined relationship in the Spanish colonial imagination; land claims were legitimized through visual epistemologies of representation and depiction, and through ceremonial, ritualized declarations of authority.[^ref2.3] The challenges of administration were significant in an empire spanning thousands of miles of coastline, millions of acres, and hundreds of peoples and languages. The underlying belief was that the distant sovereign could rule such an enormous expanse through the eyes of his subjects. These soldiers, clergy, lawyers, and judges had seen and described the lands of the Americas. In so doing, and in relating their visual claim to their sovereign, they posited a sort of transitive property of authority: “I have seen and described these lands under the auspices of the King of Spain. Thus, the King of Spain has seen them and has claimed them.” This process was formalized and standardized by Philip II’s geographic questionnaires in the 1580s,[^ref2.4] but a steady stream of descriptions had flowed out from the Americas since the earliest moments of Spanish presence there. Several examples from late 16th century Tierra Firme reflect these patterns of descriptive engagement with place. Although they are entitled “Descriptive Summaries,” there are of course many unacknowledged layers of textual mediation in these accounts. For example,  Panamá’s senior judge Alonso Criado de Castilla produced such a summary in 1575; but did he himself travel the length and breadth of the region, counting the free and enslaved population, taking note of variations in the climate throughout the year, and so forth? I think not; compiling reports from subordinates and scouts was just the sort of endeavor a judge and chronicler thought himself ideally suited.
 
-  
-
----
+ 
 
 [^ref2.1]: Aline Helg, _Slave No More: Self-Liberation before Abolitionism in the Americas_ (UNC Press Books, 2019). 46-48; Wheat, _Atlantic Africa_, 55-61.
 
